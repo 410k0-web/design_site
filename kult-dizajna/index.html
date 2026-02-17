@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Культ Дизайна</title>
+  <meta name="description" content="Минималистичный одностраничный сайт — Культ Дизайна." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Animated grid background (canvas). Falls back to CSS grid if JS is off. -->
+  <canvas id="gridCanvas" aria-hidden="true"></canvas>
+  <div class="bg-fallback" aria-hidden="true"></div>
+  <div class="bg-noise" aria-hidden="true"></div>
+
+  <a class="skip" href="#content">Перейти к контенту</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="mark">KD</div>
+      <nav class="nav">
+        <a href="#manifest">Манифест</a>
+        <a href="#chapters">Главы</a>
+        <a href="#credits">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="wrap">
+    <article class="paper">
+      <header class="hero reveal">
+        <p class="eyebrow">Тема</p>
+        <h1 class="title">Культ Дизайна</h1>
+        <div class="rule" aria-hidden="true"></div>
+        <p id="manifest" class="lead">
+          Давайте поговорим о том, о чём нельзя молчать: о дисциплине формы, о тишине пустоты и о ритме сетки.
+        </p>
+      </header>
+
+      <section id="chapters" class="section reveal">
+        <h2 class="section__title">СЕТКА</h2>
+
+        <figure class="figure figure--hero">
+          <img src="assets/placeholder-hero.jpg" alt="Замените изображение на своё" />
+        </figure>
+
+        <div class="meta">
+          <p><span>Место обитания:</span> модульная логика, печатные поля, цифровые колонки</p>
+          <p><span>Ритуалы:</span> выравнивание, шаг, повторение, пропорции</p>
+          <p><span>Качества:</span> точность, сдержанность, уверенность</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <h2 class="section__title">ТИПОГРАФИКА</h2>
+
+        <figure class="figure figure--small">
+          <img src="assets/placeholder-01.svg" alt="Замените изображение на своё" />
+        </figure>
+
+        <div class="meta">
+          <p><span>Место обитания:</span> заголовки, подписи, микро-текст</p>
+          <p><span>Пульс:</span> интерлиньяж, трекинг, контраст кеглей</p>
+          <p><span>Качества:</span> ясность, темп, интонация</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <h2 class="section__title">ПУСТОТА</h2>
+
+        <figure class="figure figure--small">
+          <img src="assets/placeholder-02.jpg" alt="Замените изображение на своё" />
+        </figure>
+
+        <div class="meta">
+          <p><span>Место обитания:</span> поля, паузы, дыхание композиции</p>
+          <p><span>Показатель тишины:</span> чем меньше — тем громче</p>
+          <p><span>Качества:</span> утончённость, внимание, баланс</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <h2 class="section__title">КОНТРАСТ</h2>
+
+        <figure class="figure figure--small">
+          <img src="assets/placeholder-03.jpg" alt="Замените изображение на своё" />
+        </figure>
+
+        <div class="meta">
+          <p><span>Место обитания:</span> свет/тень, толщина линий, плотность</p>
+          <p><span>Инструменты:</span> акценты, ритм, масштаб</p>
+          <p><span>Качества:</span> характер, иерархия, выразительность</p>
+        </div>
+      </section>
+        </div>
+
+        <div class="contact">
+          <p class="contact__label">Координаты</p>
+          <p class="contact__value">
+            <a href="mailto:410k0@mail.ru">410k0@mail.ru</a>
+            <span class="dot">·</span>
+            <a href="https://t.me/Portf0l0" target="_blank" rel="noopener">portfolio</a>
+          </p>
+        </div>
+      </footer>
+    </article>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
